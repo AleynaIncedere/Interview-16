@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Muli', sans-serif;
+  display: flex;
+  color: #cc0066;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  flex-direction: column;
+}
+
+button {
+  margin: 10px;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #c5126b;
+  border-radius: 5px;
+  color: aliceblue;
+  border: none;
+}
+
+button:hover {
+  background-color: #e013b3;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  cursor: pointer;
+  margin: 5px;
+}
+
+.teams-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  width: 80%;
+}
+
+.team {
+  width: 45%;
+}
+
+.left-team {
+  text-align: left;
+}
+
+.right-team {
+  text-align: right;
+}
+
+.team h3 {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.players-container {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.players-container h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.buttons {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.App {
+  text-align: center;
+}
